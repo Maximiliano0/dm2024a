@@ -1,6 +1,6 @@
 
 
-set.seed( 102191 )
+set.seed( 705011 )
 
 #calcula cuantos encestes logra un jugador con indice de enceste prob
 #haciendo qyt tiros libres
@@ -16,9 +16,7 @@ peloton    <- ( 501:599 ) / 1000
 jugadores  <- c( mejor, peloton )
 
 #veo que tiene el vector
-jugadores
-
-
+print(jugadores)
 
 
 #hago que los 100 jugadores tiren 10 veces cada uno
